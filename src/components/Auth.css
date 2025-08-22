@@ -1,0 +1,153 @@
+src/components/styles/Auth.css
+/* .auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth-form {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+   backdrop-filter: blur(20px); 
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #fff;
+  text-align: center;
+}
+
+.auth-form h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.auth-form p {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.auth-form input::placeholder {
+  color: #bbb;
+}
+
+.auth-form a {
+  color: #7289da;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.auth-form button:hover {
+  background: linear-gradient(to right, #556cd6, #654091);
+} 
+*/
+
+
+/* Auth.css */
+
+/* Auth.css */
+/* Auth.css */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-form {
+  background: #000; /* black background */
+  padding: 2rem;
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+}
+
+.auth-form h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.auth-form p {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #1a1a1a; /* dark gray input background */
+  color: white;
+}
+
+.auth-form input::placeholder {
+  color: #888;
+}
+
+.auth-form a {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #89c9ff;
+  text-decoration: none;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 0.6rem;
+  background: #4fc3f7;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-form button:hover {
+  background: #03a9f4;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
